@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: docker-assignment-deployment
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: word-counter-app
+  template:
+    metadata:
+      labels:
+        app: word-counter-app
+    spec:
+      containers:
+        - name: word-counter-app-container
+          image: word-counter-app:latest
+          imagePullPolicy: IfNotPresent

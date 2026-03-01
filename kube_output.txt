@@ -1,0 +1,3 @@
+NAME                                            READY   STATUS      RESTARTS      AGE
+docker-assignment-deployment-67d74ff79f-5lzll   0/1     Completed   2 (29s ago)   32s
+docker-assignment-deployment-67d74ff79f-cr9vr   0/1     Completed   2 (29s ago)   32s
