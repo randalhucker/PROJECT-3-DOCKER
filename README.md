@@ -1,6 +1,7 @@
 # Assignment Submission: Dockerized Text Analyzer
 
 **Author:** Randy Hucker
+
 **Date:** March 1 2026
 
 ---
@@ -47,7 +48,7 @@ docker build -t word-counter-app .
 ### Run the Container (Requirement 4f)
 
 ```bash
-docker run --rm --name docker-project word-counter-app
+docker run --name docker-project word-counter-app
 ```
 
 _This command will execute the script, print the results to the console, and save them to /home/data/output/result.txt._
@@ -92,3 +93,4 @@ kubectl get pods > kube_output.txt
 ## 6. Expected Assignment Results Summary
 
 > **![image](images/ResultsScreenshot.png)**
+
